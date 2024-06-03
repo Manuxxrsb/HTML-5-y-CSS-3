@@ -39,3 +39,12 @@ a:visited{
 ul{
     list-style-type: circle; /*eliminas los puntos de la lista , pero lo deje con circulitos*/ 
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;  /*gracias a esto junto la tabla*/
+}
+
+th,td{
+    border: solid 1px rgb(231, 54, 54);
+}

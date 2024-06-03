@@ -63,3 +63,7 @@ td:hover{   /*el over era para ver el estado algo asi*/
 tr{
     cursor: pointer;    /*cambia el icono del mouse la manito*/
 }
+
+tr:nth-child(even){ /* aplica cambio a los pares o impares depende de lo dentro del parentesis */
+    background-color: rgb(198, 212, 212);
+}
